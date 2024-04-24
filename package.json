@@ -1,0 +1,11 @@
+{
+  "name": "aptos-new-pair-tg-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hoangkianh/aptos-new-pair-tg-bot.git",
+  "author": "hoangkianh <hoangkianh31592@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.13.1"
+  }
+}
