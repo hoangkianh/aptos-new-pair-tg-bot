@@ -24,3 +24,4 @@ await aptos.fundAccount({
   accountAddress: alice.accountAddress,
   amount: 100000000,
 });
+const bobAddress = "0xb0b";
