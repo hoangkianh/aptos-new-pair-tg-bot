@@ -25,3 +25,8 @@ await aptos.fundAccount({
   amount: 100000000,
 });
 const bobAddress = "0xb0b";
+
+const senderAuthenticator = aptos.transaction.sign({
+  signer: alice,
+  transaction,
+});
