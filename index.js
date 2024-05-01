@@ -26,6 +26,7 @@ await aptos.fundAccount({
 });
 const bobAddress = "0xb0b";
 
+// using sign and submit separately
 const senderAuthenticator = aptos.transaction.sign({
   signer: alice,
   transaction,
